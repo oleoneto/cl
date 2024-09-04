@@ -3,7 +3,7 @@ package main
 import (
 	"embed"
 
-	"clitemplate/cmd/cli"
+	"cl/cmd/cli"
 
 	_ "github.com/joho/godotenv/autoload"
 )

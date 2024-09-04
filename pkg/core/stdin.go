@@ -1,7 +1,7 @@
 package core
 
 import (
-	"clitemplate/pkg/helpers"
+	"cl/pkg/helpers"
 	"errors"
 	"fmt"
 	"os"

@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"clitemplate/pkg/core/formatters"
+	"cl/pkg/core/formatters"
 
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/spf13/cobra"

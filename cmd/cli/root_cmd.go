@@ -4,7 +4,7 @@ import (
 	"embed"
 	"fmt"
 
-	"clitemplate/pkg/core"
+	"cl/pkg/core"
 
 	"github.com/charmbracelet/log"
 	"github.com/mitchellh/go-homedir"

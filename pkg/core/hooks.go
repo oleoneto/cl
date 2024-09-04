@@ -1,7 +1,7 @@
 package core
 
 import (
-	"clitemplate/pkg/dbsql"
+	"cl/pkg/dbsql"
 	"fmt"
 	"os"
 	"time"

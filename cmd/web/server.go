@@ -1,8 +1,8 @@
 package web
 
 import (
-	"clitemplate/cmd/web/middleware"
-	"clitemplate/cmd/web/negotiators/html"
+	"cl/cmd/web/middleware"
+	"cl/cmd/web/negotiators/html"
 	"embed"
 	"net/http"
 	"time"
@@ -31,8 +31,7 @@ func CreateServer() *fiber.App {
 	views := fiberHTML.NewFileSystem(http.FS(templates), ".html")
 
 	server := fiber.New(fiber.Config{
-		AppName:               "clitemplate",
-		ServerHeader:          "clitemplate",
+		AppName:               "cl",
 		DisableStartupMessage: true,
 		ReadTimeout:           5 * time.Second,
 		PassLocalsToViews:     true,

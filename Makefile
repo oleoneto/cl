@@ -1,4 +1,4 @@
-TARGET_FILE:=${shell head -n1 go.mod | sed -r 's/.*\/(.*)/\1/g' }
+TARGET_FILE:=cl
 BUILD_DIR=.build
 COVER_PROFILE_FILE="${BUILD_DIR}/go-cover.tmp"
 GOBIN := $(GOPATH)/bin
@@ -26,3 +26,6 @@ build: build-deps test
 
 install: build
 	cp $(TARGET_FILE) $(GOBIN)/$(TARGET_FILE)
+
+mk-build-dir: build
+	mkdir .build

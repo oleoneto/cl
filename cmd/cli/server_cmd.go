@@ -3,7 +3,7 @@ package cli
 import (
 	"log"
 
-	"clitemplate/cmd/web"
+	"cl/cmd/web"
 
 	"github.com/spf13/cobra"
 )

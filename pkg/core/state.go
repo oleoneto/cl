@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"clitemplate/pkg/core/formatters"
-	"clitemplate/pkg/dbsql"
+	"cl/pkg/core/formatters"
+	"cl/pkg/dbsql"
 
 	"github.com/drewstinnett/gout/v2"
 	"github.com/drewstinnett/gout/v2/config"

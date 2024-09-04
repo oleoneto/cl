@@ -1,7 +1,7 @@
 package helpers_test
 
 import (
-	"clitemplate/pkg/helpers"
+	"cl/pkg/helpers"
 	"reflect"
 	"testing"
 )
